@@ -87,7 +87,6 @@ document.body.onkeyup = function(e){
       showLosses.textContent = losses
       previousWord.textContent = correctWord
       wordToGuess.textContent = ""
-      correctWord = words[Math.floor(Math.random() * words.length)]
       solution = correctWord.split('')
       for (i = 0; i < correctWord.length; i++){
         wordToGuess.textContent = wordToGuess.textContent + "_"
